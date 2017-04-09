@@ -11,7 +11,7 @@
         </div>
         <!-- Contact link -->
         <div class="contact-link-container col-lg-6 col-md-6 col-sm-6 col-xs-3">
-          <a href="#" class="contact-link pull-right">Contact</a>
+          <a href="mailto:amidzicigor@yahoo.com" class="contact-link pull-right">Contact</a>
         </div>
       <!-- </div> -->
     </div>

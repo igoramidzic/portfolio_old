@@ -15,11 +15,9 @@
     <title>Igor Amidzic - Web Developer</title>
   </head>
   <body>
-    <!-- Includes main navbar -->
-    @include ('partials.navbar')
 
-    <!-- Yield page content -->
-    @yield ('content')
+    <!-- Yield main-hero content -->
+    @yield ('main-content')
 
   </body>
   <!-- Scripts -->

@@ -27,6 +27,11 @@ $(document).ready(function(){
   $(window).scroll(function () {
     scrollNavbar();
   });
+
+  // Functions to run on resize
+  $(window).resize(function(){
+    scrollNavbar();
+  });
 });
 
 //# sourceMappingURL=all.js.map

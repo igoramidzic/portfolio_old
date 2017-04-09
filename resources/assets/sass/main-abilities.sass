@@ -1,0 +1,181 @@
+@import "variables/_variables.sass"
+
+.main-page
+  .main-abilities
+    background-image: url('/img/html-ability.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    transition: padding .25s
+    .background-suppressor
+      background-color: rgba(0, 0, 0, 0.4)
+      padding: 90px 0px 90px 0px
+    .header
+      font-family: 'Slabo 27px', serif
+      letter-spacing: 2px
+      color: #fff
+      text-align: center
+      font-weight: 300
+      font-size: 40px
+      margin: 0px 0px 15px 0px
+      transition: font-size .25s
+      text-shadow: 0px 0px 25px rgba(0, 0, 0, 1)
+    .title-bar
+      height: 1px
+      border-bottom: 1px solid #e5e3df
+      width: 50%
+      margin: 0 auto
+      margin-bottom: 40px
+      position: relative
+      .bar-accent
+        position: absolute
+        border: 1px solid $primary-accent-color
+        height: 9px
+        width: 9px
+        border-radius: 50%
+        top: -4px
+        left: 47%
+    .main-container
+      .legend
+        .header
+          color: #fff
+          font-size: 23px
+      .abilities
+        padding: 40px 150px 0px 150px
+        .abilities-list
+          position: relative
+          margin: 0px
+          padding: 0px
+          list-style: none
+          text-align: center
+          .item-container
+            position: relative
+            display: inline-block
+            .practice
+              position: absolute
+              font-size: 30px
+          .item
+            position: relative
+            cursor: pointer
+            display: inline-block
+            padding: 7px 15px
+            margin: 0px 5px 10px 5px
+            color: #fff
+            font-size: 19px
+            font-weight: 500
+            transition: background-color .25s
+            -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
+            -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
+            box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
+          .proficient
+            background-color: $primary-color
+            &:hover
+              background-color: rgb(26, 122, 74)
+          .competent
+            background-color: $primary-accent-color
+            &:hover
+              background-color: $secondary-accent-color
+          .capable
+            background-color: $alt-color
+            &:hover
+              background-color: $alt-accent-color
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) and (min-width : 993px)
+  .main-page
+    .main-abilities
+      .background-suppressor
+        padding: 85px 0px 35px 0px
+      .header
+        font-size: 38px
+      .main-container
+        .legend
+        .abilities
+          padding: 40px 120px 0px 120px
+          .abilities-list
+            margin: 0px
+            padding: 0px
+            .item
+              padding: 7px 15px
+              margin: 0px 5px 10px 5px
+              font-size: 19px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (min-width : 769px)
+  .main-page
+    .main-abilities
+      .background-suppressor
+        padding: 70px 0px 30px 0px
+      .header
+        font-size: 36px
+      .main-container
+        .legend
+        .abilities
+          padding: 40px 90px 0px 90px
+          .abilities-list
+            margin: 0px
+            padding: 0px
+            .item
+              padding: 7px 15px
+              margin: 0px 5px 10px 5px
+              font-size: 19px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) and (min-width : 481px)
+  .main-page
+    .main-abilities
+      .background-suppressor
+        padding: 55px 0px 25px 0px
+      .header
+        font-size: 34px
+      .main-container
+        .legend
+        .abilities
+          padding: 30px 80px 0px 80px
+          .abilities-list
+            margin: 0px
+            padding: 0px
+            .item
+              padding: 7px 15px
+              margin: 0px 5px 10px 5px
+              font-size: 19px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) and (min-width : 321px)
+  .main-page
+    .main-abilities
+      .background-suppressor
+        padding: 40px 0px 20px 0px
+      .header
+        font-size: 32px
+      .main-container
+        .legend
+        .abilities
+          padding: 30px 0px
+          .abilities-list
+            margin: 0px
+            padding: 0px
+            .item
+              padding: 7px 15px
+              margin: 0px 5px 10px 5px
+              font-size: 19px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .main-page
+    .main-abilities
+      .background-suppressor
+        padding: 25px 0px 20px 0px
+      .header
+        font-size: 30px
+      .main-container
+        .legend
+        .abilities
+          padding: 30px 0px
+          .abilities-list
+            margin: 0px
+            padding: 0px
+            .item
+              padding: 7px 15px
+              margin: 0px 5px 10px 5px
+              font-size: 19px
