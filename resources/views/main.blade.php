@@ -5,7 +5,7 @@
   <div class="main-page">
     <!-- Main hero -->
     <div class="main-hero">
-      <div class="content container-fluid">
+      <div class="content container">
         <!-- Header -->
         <h1 class="header">Full-Stack Web Developer</h1>
         <!-- Image -->
@@ -15,7 +15,4 @@
       </div>
     </div>
   </div>
-
-
-
 @endsection

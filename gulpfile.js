@@ -7,6 +7,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
   mix.sass([
     'main.sass',
+    'main-hero.sass',
     'navbar.sass'
   ], 'public/css/all.css'); // Output path
 });
