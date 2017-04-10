@@ -34,7 +34,7 @@
               --><li class="item competent">Angular1.X</li><!--
               --><li class="item competent">NodeJS</li><!--
               --><li class="item competent">Express</li><!--
-              --><li class="item competent">PHP</li><!--
+              --><li class="item novice">PHP</li><!--
               --><li class="item novice">Laravel</li><!--
               --><li class="item novice">MySQL</li><!--
               --><li class="item novice">MongoDB</li>

@@ -10,7 +10,8 @@ elixir(function(mix) {
     'navbar.sass',
     'main-hero.sass',
     'main-aboutme.sass',
-    'main-abilities.sass'
+    'main-abilities.sass',
+    'main-projects.sass'
   ], 'public/css/all.css'); // Output path
 });
 

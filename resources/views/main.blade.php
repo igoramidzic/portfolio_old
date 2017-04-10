@@ -7,3 +7,5 @@
 @include ('partials.main-aboutme')
 
 @include ('partials.main-abilities')
+
+@include ('partials.main-projects')

@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 body {
-  background-color: #f5f8fa;
+  background-color: #a9b3ab;
   box-sizing: border-box;
-  height: 2000px;
+  height: 3000px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -213,16 +213,15 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 .main-page .main-abilities {
-  background-image: url("/img/html-ability.jpg");
+  background: url("/img/html-ability2.jpg") #f5f2ed top center no-repeat fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: padding .25s;
-  transition: padding .25s;
 }
 
 .main-page .main-abilities .background-suppressor {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 90px 0px 90px 0px;
+  -webkit-transition: padding .25s;
+  transition: padding .25s;
 }
 
 .main-page .main-abilities .header {
@@ -536,6 +535,106 @@ body {
     padding: 5px 12px;
     margin: 0px 5px 10px 5px;
     font-size: 17px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+.main-page .main-projects {
+  padding: 90px 0px 90px 0px;
+  -webkit-transition: padding .25s;
+  transition: padding .25s;
+  background-color: #fff;
+}
+
+.main-page .main-projects .header {
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0px 0px 15px 0px;
+  -webkit-transition: font-size .25s;
+  transition: font-size .25s;
+  color: #666;
+}
+
+.main-page .main-projects .title-bar {
+  height: 1px;
+  border-bottom: 1px solid #e5e3df;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.main-page .main-projects .title-bar .bar-accent {
+  position: absolute;
+  border: 1px solid #ecc969;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  top: -4px;
+  left: 47%;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .main-page .main-projects {
+    padding: 85px 0px 35px 0px;
+  }
+  .main-page .main-projects .header {
+    font-size: 38px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .main-page .main-projects {
+    padding: 70px 0px 30px 0px;
+  }
+  .main-page .main-projects .header {
+    font-size: 36px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+  .main-page .main-projects {
+    padding: 55px 0px 25px 0px;
+  }
+  .main-page .main-projects .header {
+    font-size: 34px;
+  }
+  .main-page .main-projects .title-bar {
+    margin-bottom: 20px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+  .main-page .main-projects {
+    padding: 40px 0px 20px 0px;
+  }
+  .main-page .main-projects .header {
+    font-size: 32px;
+  }
+  .main-page .main-projects .title-bar {
+    margin-bottom: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .main-page .main-projects {
+    padding: 25px 0px 20px 0px;
+  }
+  .main-page .main-projects .header {
+    font-size: 30px;
+  }
+  .main-page .main-projects .title-bar {
+    margin-bottom: 20px;
   }
 }
 

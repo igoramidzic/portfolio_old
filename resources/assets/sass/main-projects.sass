@@ -1,0 +1,78 @@
+@import "variables/_variables.sass"
+
+.main-page
+  .main-projects
+    padding: 90px 0px 90px 0px
+    transition: padding .25s
+    background-color: #fff
+    .header
+      font-family: 'Slabo 27px', serif
+      letter-spacing: 2px
+      text-align: center
+      font-weight: 300
+      font-size: 40px
+      margin: 0px 0px 15px 0px
+      transition: font-size .25s
+      color: #666
+    .title-bar
+      height: 1px
+      border-bottom: 1px solid #e5e3df
+      width: 50%
+      margin: 0 auto
+      margin-bottom: 40px
+      position: relative
+      .bar-accent
+        position: absolute
+        border: 1px solid $primary-accent-color
+        height: 9px
+        width: 9px
+        border-radius: 50%
+        top: -4px
+        left: 47%
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) and (min-width : 992px)
+  .main-page
+    .main-projects
+      padding: 85px 0px 35px 0px
+      .header
+        font-size: 38px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (min-width : 768px)
+  .main-page
+    .main-projects
+      padding: 70px 0px 30px 0px
+      .header
+        font-size: 36px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) and (min-width : 481px)
+  .main-page
+    .main-projects
+      padding: 55px 0px 25px 0px
+      .header
+        font-size: 34px
+      .title-bar
+        margin-bottom: 20px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) and (min-width : 321px)
+  .main-page
+    .main-projects
+      padding: 40px 0px 20px 0px
+      .header
+        font-size: 32px
+      .title-bar
+        margin-bottom: 20px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .main-page
+    .main-projects
+      padding: 25px 0px 20px 0px
+      .header
+        font-size: 30px
+      .title-bar
+        margin-bottom: 20px
