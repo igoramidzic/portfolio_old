@@ -205,6 +205,13 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+.main-page .main-aboutme {
+  height: 300px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 .main-page .main-abilities {
   background-image: url("/img/html-ability.jpg");
   background-size: cover;
@@ -250,9 +257,35 @@ body {
   left: 47%;
 }
 
+.main-page .main-abilities .main-container .legend {
+  padding-right: 50px;
+}
+
 .main-page .main-abilities .main-container .legend .header {
   color: #fff;
   font-size: 23px;
+  text-align: right;
+}
+
+.main-page .main-abilities .main-container .legend .ability-level {
+  color: #fff;
+  text-align: right;
+}
+
+.main-page .main-abilities .main-container .legend .ability-level .fa-circle {
+  margin-left: 10px;
+}
+
+.main-page .main-abilities .main-container .legend .ability-level .proficient {
+  color: #51bf87;
+}
+
+.main-page .main-abilities .main-container .legend .ability-level .competent {
+  color: #ecc969;
+}
+
+.main-page .main-abilities .main-container .legend .ability-level .novice {
+  color: #8a4b70;
 }
 
 .main-page .main-abilities .main-container .abilities {
@@ -307,11 +340,11 @@ body {
   background-color: #ac8822;
 }
 
-.main-page .main-abilities .main-container .abilities .abilities-list .capable {
+.main-page .main-abilities .main-container .abilities .abilities-list .novice {
   background-color: #8a4b70;
 }
 
-.main-page .main-abilities .main-container .abilities .abilities-list .capable:hover {
+.main-page .main-abilities .main-container .abilities .abilities-list .novice:hover {
   background-color: #4a2139;
 }
 

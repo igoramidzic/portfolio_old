@@ -9,6 +9,7 @@ elixir(function(mix) {
     'main.sass',
     'navbar.sass',
     'main-hero.sass',
+    'main-aboutme.sass',
     'main-abilities.sass'
   ], 'public/css/all.css'); // Output path
 });

@@ -4,4 +4,6 @@
 
 @include ('partials.main-hero')
 
+@include ('partials.main-aboutme')
+
 @include ('partials.main-abilities')

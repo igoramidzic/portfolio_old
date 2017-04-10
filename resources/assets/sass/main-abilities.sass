@@ -36,9 +36,22 @@
         left: 47%
     .main-container
       .legend
+        padding-right: 50px
         .header
           color: #fff
           font-size: 23px
+          text-align: right
+        .ability-level
+          color: #fff
+          text-align: right
+          .fa-circle
+            margin-left: 10px
+          .proficient
+            color: $primary-color
+          .competent
+            color: $primary-accent-color
+          .novice
+            color: $alt-color
       .abilities
         padding: 40px 150px 0px 150px
         .abilities-list
@@ -74,7 +87,7 @@
             background-color: $primary-accent-color
             &:hover
               background-color: $secondary-accent-color
-          .capable
+          .novice
             background-color: $alt-color
             &:hover
               background-color: $alt-accent-color

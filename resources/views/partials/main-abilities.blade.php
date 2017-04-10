@@ -16,6 +16,18 @@
           <!-- Legend -->
           <div class="legend col-lg-3 col-md-3 col-sm-3 col-xs-12 pull-right">
             <h4 class="header">Legend</h4>
+
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+                <p class="ability-level">Proficient <i class="proficient fa fa-circle"></i></p>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+                <p class="ability-level">Competent <i class="competent fa fa-circle"></i></p>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+                <p class="ability-level">Novice <i class="novice fa fa-circle"></i></p>
+              </div>
+            </div>
           </div>
           <!-- Ability List -->
           <div class="abilities col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -30,9 +42,9 @@
               --><li class="item competent">NodeJS</li><!--
               --><li class="item competent">Express</li><!--
               --><li class="item competent">PHP</li><!--
-              --><li class="item capable">Laravel</li><!--
-              --><li class="item capable">MySQL</li><!--
-              --><li class="item capable">MongoDB</li>
+              --><li class="item novice">Laravel</li><!--
+              --><li class="item novice">MySQL</li><!--
+              --><li class="item novice">MongoDB</li>
             </ul>
           </div>
         </div>

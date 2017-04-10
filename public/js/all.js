@@ -32,6 +32,10 @@ $(document).ready(function(){
   $(window).resize(function(){
     scrollNavbar();
   });
+
+
+  // On page loag
+  scrollNavbar();
 });
 
 //# sourceMappingURL=all.js.map
