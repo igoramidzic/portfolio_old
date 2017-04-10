@@ -16,7 +16,7 @@
   </head>
   <body>
 
-    <!-- Yield main-hero content -->
+    <!-- Yield main content -->
     @yield ('main-content')
 
   </body>

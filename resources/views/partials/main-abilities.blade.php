@@ -15,19 +15,12 @@
         <div class="main-container row">
           <!-- Legend -->
           <div class="legend col-lg-3 col-md-3 col-sm-3 col-xs-12 pull-right">
-            <h4 class="header">Legend</h4>
-
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-                <p class="ability-level">Proficient <i class="proficient fa fa-circle"></i></p>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-                <p class="ability-level">Competent <i class="competent fa fa-circle"></i></p>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-                <p class="ability-level">Novice <i class="novice fa fa-circle"></i></p>
-              </div>
-            </div>
+            <h4 class="header hidden-xs">Legend</h4>
+            <ul>
+              <li>Proficient <i class="proficient fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li>Competent <i class="competent fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li>Novice <i class="novice fa fa-circle"></i></li>
+            </ul>
           </div>
           <!-- Ability List -->
           <div class="abilities col-lg-9 col-md-9 col-sm-9 col-xs-12">

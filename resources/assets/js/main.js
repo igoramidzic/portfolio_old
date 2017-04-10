@@ -4,7 +4,8 @@ $(document).ready(function(){
     console.log("Hello");
   })
 
-  function scrollNavbar () {
+  // Change navbar css
+  function changeNavbar () {
     // Height of the main hero
     var heroHeight = $('.main-hero').outerHeight();
 
@@ -25,15 +26,14 @@ $(document).ready(function(){
 
   // Functions to run on scroll
   $(window).scroll(function () {
-    scrollNavbar();
+    changeNavbar();
   });
 
   // Functions to run on resize
   $(window).resize(function(){
-    scrollNavbar();
+    changeNavbar();
   });
 
-
   // On page loag
-  scrollNavbar();
+  changeNavbar();
 });

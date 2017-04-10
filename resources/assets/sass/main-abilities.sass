@@ -41,17 +41,28 @@
           color: #fff
           font-size: 23px
           text-align: right
-        .ability-level
-          color: #fff
+        ul
+          padding: 0px
+          margin: 0px
+          list-style: none
           text-align: right
-          .fa-circle
-            margin-left: 10px
-          .proficient
-            color: $primary-color
-          .competent
-            color: $primary-accent-color
-          .novice
-            color: $alt-color
+          li
+            text-shadow: 0px 0px 25px rgba(0, 0, 0, .8)
+            color: #fff
+            padding: 5px 0px
+            letter-spacing: 1px
+            .separator
+              font-size: 30px
+              position: relative
+              top: 4px
+            .fa-circle
+              margin-left: 10px
+            .proficient
+              color: $proficient-color
+            .competent
+              color: $competent-color
+            .novice
+              color: $novice-color
       .abilities
         padding: 40px 150px 0px 150px
         .abilities-list
@@ -75,26 +86,26 @@
             color: #fff
             font-size: 19px
             font-weight: 500
-            transition: background-color .25s
+            transition: all .25s
             -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
             -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
             box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75)
           .proficient
-            background-color: $primary-color
+            background-color: $proficient-color
             &:hover
-              background-color: rgb(26, 122, 74)
+              background-color: $proficient-secondary-color
           .competent
-            background-color: $primary-accent-color
+            background-color: $competent-color
             &:hover
-              background-color: $secondary-accent-color
+              background-color: $competent-secondary-color
           .novice
-            background-color: $alt-color
+            background-color: $novice-color
             &:hover
-              background-color: $alt-accent-color
+              background-color: $novice-secondary-color
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) and (min-width : 993px)
+@media only screen and (max-width : 1200px) and (min-width : 992px)
   .main-page
     .main-abilities
       .background-suppressor
@@ -114,7 +125,7 @@
               font-size: 19px
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) and (min-width : 769px)
+@media only screen and (max-width : 992px) and (min-width : 768px)
   .main-page
     .main-abilities
       .background-suppressor
@@ -122,7 +133,6 @@
       .header
         font-size: 36px
       .main-container
-        .legend
         .abilities
           padding: 40px 90px 0px 90px
           .abilities-list
@@ -134,24 +144,39 @@
               font-size: 19px
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) and (min-width : 481px)
+@media only screen and (max-width : 767px) and (min-width : 481px)
   .main-page
     .main-abilities
       .background-suppressor
         padding: 55px 0px 25px 0px
       .header
         font-size: 34px
+      .title-bar
+        margin-bottom: 20px
       .main-container
         .legend
+          padding-right: 15px
+          .header
+            color: #fff
+            font-size: 23px
+            text-align: right
+          ul
+            padding: 0px
+            list-style: none
+            text-align: center
+            li
+              display: inline-block
+              .fa-circle
+                margin-left: 3px
         .abilities
           padding: 30px 80px 0px 80px
           .abilities-list
             margin: 0px
             padding: 0px
             .item
-              padding: 7px 15px
+              padding: 6px 13px
               margin: 0px 5px 10px 5px
-              font-size: 19px
+              font-size: 17px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) and (min-width : 321px)
@@ -161,17 +186,32 @@
         padding: 40px 0px 20px 0px
       .header
         font-size: 32px
+      .title-bar
+        margin-bottom: 20px
       .main-container
         .legend
+          padding-right: 15px
+          .header
+            color: #fff
+            font-size: 23px
+            text-align: right
+          ul
+            padding: 0px
+            list-style: none
+            text-align: center
+            li
+              display: inline-block
+              .fa-circle
+                margin-left: 3px
         .abilities
-          padding: 30px 0px
+          padding: 30px 0px 0px 0px
           .abilities-list
             margin: 0px
             padding: 0px
             .item
-              padding: 7px 15px
+              padding: 5px 12px
               margin: 0px 5px 10px 5px
-              font-size: 19px
+              font-size: 17px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
@@ -181,14 +221,29 @@
         padding: 25px 0px 20px 0px
       .header
         font-size: 30px
+      .title-bar
+        margin-bottom: 20px
       .main-container
         .legend
+          padding-right: 15px
+          .header
+            color: #fff
+            font-size: 23px
+            text-align: right
+          ul
+            padding: 0px
+            list-style: none
+            text-align: center
+            li
+              display: inline-block
+              .fa-circle
+                margin-left: 3px
         .abilities
-          padding: 30px 0px
+          padding: 30px 0px 0px 0px
           .abilities-list
             margin: 0px
             padding: 0px
             .item
-              padding: 7px 15px
+              padding: 5px 12px
               margin: 0px 5px 10px 5px
-              font-size: 19px
+              font-size: 17px
