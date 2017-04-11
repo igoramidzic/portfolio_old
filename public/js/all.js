@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  $(window).on("load", function () {
-    console.log("Hello");
-  })
+  // AOS Init
+  AOS.init();
 
+  // $(wind
   // Change navbar css
   function changeNavbar () {
     // Height of the main hero
