@@ -6,9 +6,9 @@
     <div class="background-suppressor">
       <div class="content container-fluid">
         <!-- Title -->
-        <h1 class="header">My Abilities</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" class="header">My Abilities</h1>
         <!-- Title underline -->
-        <div  class="title-bar">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="250" class="title-bar">
           <div class="bar-accent"></div>
         </div>
         <!-- Abilities -->
