@@ -6,20 +6,20 @@
     <div class="background-suppressor">
       <div class="content container-fluid">
         <!-- Title -->
-        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" class="header">My Abilities</h1>
+        <h1 class="header">My Abilities</h1>
         <!-- Title underline -->
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="250" class="title-bar">
+        <div  class="title-bar">
           <div class="bar-accent"></div>
         </div>
         <!-- Abilities -->
         <div class="main-container row">
           <!-- Legend -->
           <div class="legend col-lg-3 col-md-3 col-sm-3 col-xs-12 pull-right">
-            <h4 data-aos="fade-left" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="500" class="header hidden-xs">Legend</h4>
+            <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="500" class="header hidden-xs">Legend</h4>
             <ul>
-              <li data-aos="fade-left" data-aos-duration="1500" data-aos-anchor=".main-abilities" data-aos-delay="750">Proficient <i class="proficient fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
-              <li data-aos="fade-left" data-aos-duration="2000" data-aos-anchor=".main-abilities" data-aos-delay="750">Competent <i class="competent fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
-              <li data-aos="fade-left" data-aos-duration="2500" data-aos-anchor=".main-abilities" data-aos-delay="750">Novice <i class="novice fa fa-circle"></i></li>
+              <li data-aos="fade-up" data-aos-duration="1250" data-aos-anchor=".main-abilities" data-aos-delay="500">Proficient <i class="proficient fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor=".main-abilities" data-aos-delay="500">Competent <i class="competent fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li data-aos="fade-up" data-aos-duration="1750" data-aos-anchor=".main-abilities" data-aos-delay="500">Novice <i class="novice fa fa-circle"></i></li>
             </ul>
           </div>
           <!-- Ability List -->
