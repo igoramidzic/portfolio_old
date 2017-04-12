@@ -25,19 +25,19 @@
           <!-- Ability List -->
           <div class="abilities col-lg-9 col-md-9 col-sm-9 col-xs-12">
             <ul class="abilities-list">
-              <li data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">HTML</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">CSS</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1200" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">SASS</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1300" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">Bootstrap</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1400" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">Javascript</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item proficient">jQuery</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1600" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item competent">Angular1.X</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1700" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item competent">NodeJS</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1800" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item competent">Express</li><!--
-              --><li data-aos="fade-up" data-aos-duration="1900" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item novice">PHP</li><!--
-              --><li data-aos="fade-up" data-aos-duration="2000" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item novice">Laravel</li><!--
-              --><li data-aos="fade-up" data-aos-duration="2100" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item novice">MySQL</li><!--
-              --><li data-aos="fade-up" data-aos-duration="2200" data-aos-anchor=".main-abilities" data-aos-delay="750" class="item novice">MongoDB</li>
+              <li data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" class="item proficient">HTML</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor=".main-abilities" aboutme class="item proficient">CSS</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-anchor=".main-abilities" aboutme class="item proficient">SASS</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-anchor=".main-abilities" aboutme class="item proficient">Bootstrap</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-anchor=".main-abilities" aboutme class="item proficient">Javascript</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-anchor=".main-abilities" aboutme class="item proficient">jQuery</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-anchor=".main-abilities" aboutme class="item competent">Angular1.X</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" data-aos-anchor=".main-abilities" aboutme class="item competent">NodeJS</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-anchor=".main-abilities" aboutme class="item competent">Express</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" data-aos-anchor=".main-abilities" aboutme class="item novice">PHP</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" data-aos-anchor=".main-abilities" aboutme class="item novice">Laravel</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100" data-aos-anchor=".main-abilities" aboutme class="item novice">MySQL</li><!--
+              --><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200" data-aos-anchor=".main-abilities" aboutme class="item novice">MongoDB</li>
             </ul>
           </div>
         </div>

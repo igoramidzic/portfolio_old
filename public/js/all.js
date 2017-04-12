@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
   // AOS Init
-  AOS.init();
+  AOS.init({
+    once: true
+  });
 
   // $(wind
   // Change navbar css
@@ -27,15 +29,18 @@ $(document).ready(function(){
   // Functions to run on scroll
   $(window).scroll(function () {
     changeNavbar();
+    removeAOSFromElements();
   });
 
   // Functions to run on resize
   $(window).resize(function(){
     changeNavbar();
+    // removeAOSFromElements();
   });
 
   // On page loag
   changeNavbar();
+  // removeAOSFromElements();
 });
 
 //# sourceMappingURL=all.js.map

@@ -63,11 +63,11 @@ body {
 
 .main-navbar-section .navbar .content .contact-link-container .contact-link:hover {
   background-color: #fff;
-  color: #51bf87;
+  color: #34b3a0;
 }
 
 .main-navbar-section .first-scroll-navbar {
-  background-color: rgba(81, 191, 135, 0.7) !important;
+  background-color: rgba(52, 179, 160, 0.7) !important;
 }
 
 .main-navbar-section .first-scroll-navbar .content {
@@ -75,8 +75,8 @@ body {
 }
 
 .main-navbar-section .second-scroll-navbar {
-  background-color: #51bf87 !important;
-  border-bottom-color: #3eb177;
+  background-color: #34b3a0 !important;
+  border-bottom-color: #168070;
 }
 
 @media (max-width: 767px) {
@@ -103,10 +103,10 @@ body {
 .main-page .main-hero {
   padding-top: 150px;
   padding-bottom: 100px;
-  background: #51bf87;
-  background: -webkit-linear-gradient(55deg, #51bf87 53%, #59d587 50%, #51bf87 100%);
-  background: -webkit-linear-gradient(41deg, #51bf87 53%, #59d587 50%, #51bf87 100%);
-  background: linear-gradient(49deg, #51bf87 53%, #59d587 50%, #51bf87 100%);
+  background: #34b3a0;
+  background: -webkit-linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  background: -webkit-linear-gradient(41deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  background: linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
   -webkit-transition: padding .25s;
   transition: padding .25s;
 }
@@ -207,7 +207,43 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 .main-page .main-aboutme {
-  height: 300px;
+  padding: 90px 0px 90px 0px;
+  background-color: #fff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .main-page .main-aboutme {
+    padding: 85px 0px 85px 0px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .main-page .main-aboutme {
+    padding: 70px 0px 70px 0px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+  .main-page .main-aboutme {
+    padding: 55px 0px 55px 0px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+  .main-page .main-aboutme {
+    padding: 40px 0px 40px 0px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .main-page .main-aboutme {
+    padding: 25px 0px 25px 0px;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
@@ -290,7 +326,7 @@ body {
 }
 
 .main-page .main-abilities .main-container .legend ul li .proficient {
-  color: #51bf87;
+  color: #34b3a0;
 }
 
 .main-page .main-abilities .main-container .legend ul li .competent {
@@ -336,11 +372,11 @@ body {
 }
 
 .main-page .main-abilities .main-container .abilities .abilities-list .proficient {
-  background-color: #51bf87;
+  background-color: #34b3a0;
 }
 
 .main-page .main-abilities .main-container .abilities .abilities-list .proficient:hover {
-  background-color: #1a7a4a;
+  background-color: #168070;
 }
 
 .main-page .main-abilities .main-container .abilities .abilities-list .competent {
