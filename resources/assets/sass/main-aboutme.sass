@@ -2,8 +2,37 @@
 
 .main-page
   .main-aboutme
-    padding: 90px 0px 90px 0px
+    padding: 100px 0px 100px 0px
     background-color: #fff
+    .aboutme-row
+      display: -ms-flexbox
+      display: -webkit-flex
+      display: flex
+      -ms-flex-align: center
+      -webkit-align-items: center
+      -webkit-box-align: center
+      align-items: center
+      .aboutme-text
+        padding: 0px 50px
+        .header
+          font-family: 'Slabo 27px', serif
+          color: $primary-header-color
+          text-align: left
+          font-weight: 300
+          font-size: 40px
+          margin: 0px 0px 15px 0px
+        .description
+          font-family: 'Slabo 27px', serif
+          letter-spacing: 2px
+          text-align: left
+          font-weight: 300
+          font-size: 21px
+      .img-row
+        padding: 0px 50px
+        .img-container
+          border: 2px solid $primary-color
+          overflow: hidden
+          img
 
 
 /* Large Devices, Wide Screens */
@@ -11,27 +40,104 @@
   .main-page
     .main-aboutme
       padding: 85px 0px 85px 0px
+      .aboutme-row
+        .aboutme-text
+          padding: 0px 50px
+          .header
+            font-size: 38px
+          .description
+            font-size: 20px
+        .img-row
+          padding: 0px 50px
+          .img-container
+            img
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) and (min-width : 767px)
   .main-page
     .main-aboutme
       padding: 70px 0px 70px 0px
+      .aboutme-row
+        .aboutme-text
+          padding: 0px 50px
+          .header
+            font-size: 36px
+          .description
+            font-size: 19px
+        .img-row
+          padding: 0px 50px
+          .img-container
+            img
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) and (min-width : 480px)
   .main-page
     .main-aboutme
       padding: 55px 0px 55px 0px
+      .aboutme-row
+        display: block
+        -ms-flex-align: default
+        -webkit-align-items: default
+        -webkit-box-align: default
+        align-items: default
+        .aboutme-text
+          padding: 0px 50px
+          .header
+            text-align: center
+            font-size: 34px
+          .description
+            text-align: center
+            font-size: 18px
+        .img-row
+          padding: 0px 15px
+          .img-container
+            margin-bottom: 25px
+            img
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) and (min-width : 320px)
   .main-page
     .main-aboutme
       padding: 40px 0px 40px 0px
+      .aboutme-row
+        display: block
+        -ms-flex-align: default
+        -webkit-align-items: default
+        -webkit-box-align: default
+        align-items: default
+        .aboutme-text
+          padding: 0px 15px
+          .header
+            text-align: center
+            font-size: 32px
+          .description
+            text-align: center
+            font-size: 17px
+        .img-row
+          padding: 0px
+          .img-container
+            img
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
   .main-page
     .main-aboutme
       padding: 25px 0px 25px 0px
+      .aboutme-row
+        display: block
+        -ms-flex-align: default
+        -webkit-align-items: default
+        -webkit-box-align: default
+        align-items: default
+        .aboutme-text
+          padding: 0px
+          .header
+            text-align: center
+            font-size: 30px
+          .description
+            text-align: center
+            font-size: 16px
+        .img-row
+          padding: 0px
+          .img-container
+            img

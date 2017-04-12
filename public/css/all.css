@@ -207,14 +207,63 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 .main-page .main-aboutme {
-  padding: 90px 0px 90px 0px;
+  padding: 100px 0px 100px 0px;
   background-color: #fff;
+}
+
+.main-page .main-aboutme .aboutme-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.main-page .main-aboutme .aboutme-row .aboutme-text {
+  padding: 0px 50px;
+}
+
+.main-page .main-aboutme .aboutme-row .aboutme-text .header {
+  font-family: 'Slabo 27px', serif;
+  color: #666;
+  text-align: left;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0px 0px 15px 0px;
+}
+
+.main-page .main-aboutme .aboutme-row .aboutme-text .description {
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.main-page .main-aboutme .aboutme-row .img-row {
+  padding: 0px 50px;
+}
+
+.main-page .main-aboutme .aboutme-row .img-row .img-container {
+  border: 2px solid #34b3a0;
+  overflow: hidden;
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
   .main-page .main-aboutme {
     padding: 85px 0px 85px 0px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text {
+    padding: 0px 50px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .header {
+    font-size: 38px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .description {
+    font-size: 20px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row {
+    padding: 0px 50px;
   }
 }
 
@@ -223,12 +272,46 @@ body {
   .main-page .main-aboutme {
     padding: 70px 0px 70px 0px;
   }
+  .main-page .main-aboutme .aboutme-row .aboutme-text {
+    padding: 0px 50px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .header {
+    font-size: 36px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .description {
+    font-size: 19px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row {
+    padding: 0px 50px;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) and (min-width: 480px) {
   .main-page .main-aboutme {
     padding: 55px 0px 55px 0px;
+  }
+  .main-page .main-aboutme .aboutme-row {
+    display: block;
+    -webkit-box-align: default;
+    align-items: default;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text {
+    padding: 0px 50px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .header {
+    text-align: center;
+    font-size: 34px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .description {
+    text-align: center;
+    font-size: 18px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row {
+    padding: 0px 15px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row .img-container {
+    margin-bottom: 25px;
   }
 }
 
@@ -237,12 +320,50 @@ body {
   .main-page .main-aboutme {
     padding: 40px 0px 40px 0px;
   }
+  .main-page .main-aboutme .aboutme-row {
+    display: block;
+    -webkit-box-align: default;
+    align-items: default;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text {
+    padding: 0px 15px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .header {
+    text-align: center;
+    font-size: 32px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .description {
+    text-align: center;
+    font-size: 17px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row {
+    padding: 0px;
+  }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .main-page .main-aboutme {
     padding: 25px 0px 25px 0px;
+  }
+  .main-page .main-aboutme .aboutme-row {
+    display: block;
+    -webkit-box-align: default;
+    align-items: default;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text {
+    padding: 0px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .header {
+    text-align: center;
+    font-size: 30px;
+  }
+  .main-page .main-aboutme .aboutme-row .aboutme-text .description {
+    text-align: center;
+    font-size: 16px;
+  }
+  .main-page .main-aboutme .aboutme-row .img-row {
+    padding: 0px;
   }
 }
 
