@@ -1,3 +1,9 @@
+// Spinner Loader
+window.addEventListener('load', function(){
+  $('#overlay').css("opacity", "0")
+})
+
+
 $(document).ready(function(){
 
   // AOS Init

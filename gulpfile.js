@@ -8,6 +8,7 @@ elixir(function(mix) {
   mix.sass([
     'main.sass',
     'navbar.sass',
+    'spinner.sass',
     'main-hero.sass',
     'main-aboutme.sass',
     'main-abilities.sass',

@@ -1,3 +1,7 @@
+<div id="overlay">
+<div class="spinner"></div>
+</div>
+
 @extends ('layouts.layout')
 
 @include ('partials.navbar')
