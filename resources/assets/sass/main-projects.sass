@@ -29,7 +29,39 @@
         border-radius: 50%
         top: -4px
         left: 47%
+    .projects
+      .project-thumb
+        display: block
+        background-size: cover
+        width: 50%
+        float: left
+        position: relative
+        overflow: hidden
+        &::after
+          content: ''
+          display: block
+          padding-top: 55%
+        .project-meta
+          padding: 10px
+          position: absolute
+          background-color: fade-out($primary-color, 0.2)
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+          color: #fff
+          opacity: 0
+          transform: translate(0%, 100%) scale(.5)
+          transition: all 200ms ease-in-out
+          .title
+            margin: 0px 0px 10px 0px
+          .description
+            margin: 0px
+            font-size: 18px
 
+      .project-thumb:hover .project-meta
+        opacity: 1
+        transform: translate(0%, 0%) scale(1)
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) and (min-width : 992px)
@@ -56,6 +88,9 @@
         font-size: 34px
       .title-bar
         margin-bottom: 20px
+      .projects
+        .project-thumb
+          width: 100%
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) and (min-width : 321px)
@@ -66,6 +101,9 @@
         font-size: 32px
       .title-bar
         margin-bottom: 20px
+      .projects
+        .project-thumb
+          width: 100%
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
@@ -76,3 +114,6 @@
         font-size: 30px
       .title-bar
         margin-bottom: 20px
+      .projects
+        .project-thumb
+          width: 100%
