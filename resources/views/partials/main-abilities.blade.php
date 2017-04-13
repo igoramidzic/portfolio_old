@@ -17,9 +17,9 @@
           <div class="legend col-lg-3 col-md-3 col-sm-3 col-xs-12 pull-right">
             <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-anchor=".main-abilities" data-aos-delay="500" class="header hidden-xs">Legend</h4>
             <ul>
-              <li data-aos="fade-up" data-aos-duration="1250" data-aos-anchor=".main-abilities" data-aos-delay="500">Proficient <i class="proficient fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
-              <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor=".main-abilities" data-aos-delay="500">Competent <i class="competent fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
-              <li data-aos="fade-up" data-aos-duration="1750" data-aos-anchor=".main-abilities" data-aos-delay="500">Novice <i class="novice fa fa-circle"></i></li>
+              <li data-aos="fade-right" data-aos-duration="1250" data-aos-anchor=".main-abilities" data-aos-delay="500">Proficient <i class="proficient fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li data-aos="fade-right" data-aos-duration="1500" data-aos-anchor=".main-abilities" data-aos-delay="500">Competent <i class="competent fa fa-circle"></i> <span class="separator hidden-lg hidden-md hidden-sm">|</span></li>
+              <li data-aos="fade-right" data-aos-duration="1750" data-aos-anchor=".main-abilities" data-aos-delay="500">Novice <i class="novice fa fa-circle"></i></li>
             </ul>
           </div>
           <!-- Ability List -->

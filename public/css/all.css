@@ -237,15 +237,27 @@ body {
   text-align: left;
   font-weight: 300;
   font-size: 21px;
+  margin-bottom: 0px;
 }
 
-.main-page .main-aboutme .aboutme-row .img-row {
+.main-page .main-aboutme .aboutme-row .desktop-img-row {
   padding: 0px 50px;
 }
 
-.main-page .main-aboutme .aboutme-row .img-row .img-container {
+.main-page .main-aboutme .aboutme-row .desktop-img-row .img-container {
   border: 2px solid #34b3a0;
   overflow: hidden;
+}
+
+.main-page .main-aboutme .aboutme-row .mobile-img-row {
+  padding: 0px 50px;
+}
+
+.main-page .main-aboutme .aboutme-row .mobile-img-row img {
+  margin: 0 auto;
+  border: 2px solid #34b3a0;
+  height: 225px;
+  margin-bottom: 25px;
 }
 
 /* Large Devices, Wide Screens */
@@ -307,11 +319,11 @@ body {
     text-align: center;
     font-size: 18px;
   }
-  .main-page .main-aboutme .aboutme-row .img-row {
-    padding: 0px 15px;
+  .main-page .main-aboutme .aboutme-row .mobile-img-row {
+    padding: 0px;
   }
-  .main-page .main-aboutme .aboutme-row .img-row .img-container {
-    margin-bottom: 25px;
+  .main-page .main-aboutme .aboutme-row .mobile-img-row img {
+    height: 200px;
   }
 }
 
@@ -336,8 +348,11 @@ body {
     text-align: center;
     font-size: 17px;
   }
-  .main-page .main-aboutme .aboutme-row .img-row {
+  .main-page .main-aboutme .aboutme-row .mobile-img-row {
     padding: 0px;
+  }
+  .main-page .main-aboutme .aboutme-row .mobile-img-row img {
+    height: 200px;
   }
 }
 
@@ -362,8 +377,11 @@ body {
     text-align: center;
     font-size: 16px;
   }
-  .main-page .main-aboutme .aboutme-row .img-row {
+  .main-page .main-aboutme .aboutme-row .mobile-img-row {
     padding: 0px;
+  }
+  .main-page .main-aboutme .aboutme-row .mobile-img-row img {
+    height: 200px;
   }
 }
 
