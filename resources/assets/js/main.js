@@ -1,6 +1,12 @@
 // Spinner Loader
 window.addEventListener('load', function(){
-  $('#overlay').css("opacity", "0")
+  // Set overlay opacity to 0 (For nice transition)
+  $('#overlay').css("opacity", "0");
+  // Set overlay display to none, so overlay is not on top of other elements
+  // After 500ms
+  setTimeout(function () {
+    $('#overlay').css("display", "none");
+  }, 500)
 })
 
 
