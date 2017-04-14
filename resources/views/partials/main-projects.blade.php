@@ -13,10 +13,10 @@
       <div class="projects">
 
         <div class="row">
-          <div class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a class="project-link" href="#">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a class="project-link" target="_blank" href="http://www.kk.igoramidzic.com">
               <!-- Project image -->
-              <img class="img-responsive" src="img/kodekademy-project.png" alt="">
+              <img class="img-responsive" src="img/kodekademy-project.png" alt="Replica of Codecademy project">
               <!-- Project meta -->
               <div class="project-meta">
                 <!-- Project title -->
@@ -26,10 +26,10 @@
               </div>
             </a>
           </div>
-          <div class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a class="project-link" href="#">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a class="project-link" target="_blank" href="http://www.sn.igoramidzic.com">
               <!-- Project image -->
-              <img class="img-responsive" src="img/sipnub-project.png" alt="">
+              <img class="img-responsive" src="img/sipnub-project.png" alt="Replica of Github project">
               <!-- Project meta -->
               <div class="project-meta">
                 <!-- Project title -->
@@ -39,10 +39,10 @@
               </div>
             </a>
           </div>
-          <div class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a class="project-link" href="#">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a class="project-link" target="_blank" href="https://www.freenters.com">
               <!-- Project image -->
-              <img class="img-responsive" src="img/freenters.png" alt="">
+              <img class="img-responsive" src="img/freenters.png" alt="Freenters Internship">
               <!-- Project meta -->
               <div class="project-meta">
                 <!-- Project title -->
@@ -52,10 +52,10 @@
               </div>
             </a>
           </div>
-          <div class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a class="project-link" href="#">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a class="project-link" target="_blank" href="http://www.wa.igoramidzic.com">
               <!-- Project image -->
-              <img class="img-responsive" class="img-responsive" src="img/weather-project.png" alt="">
+              <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
               <!-- Project meta -->
               <div class="project-meta">
                 <!-- Project title -->
