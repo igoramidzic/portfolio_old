@@ -67,6 +67,10 @@
           </div>
         </div>
       </div>
+      <!-- Contact me section -->
+      <div class="contact-me-container">
+        <p class="contact-me-helper">Like what you see? <a class="contact-link" href="mailto:amidzicigor@yahoo.com">Shoot me an email</a> and lets chat about working together!</p>
+      </div>
     </div>
   </div>
 </div>

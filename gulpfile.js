@@ -12,7 +12,9 @@ elixir(function(mix) {
     'main-hero.sass',
     'main-aboutme.sass',
     'main-abilities.sass',
-    'main-projects.sass'
+    'main-projects.sass',
+    'main-stats.sass',
+    'main-footer.sass'
   ], 'public/css/all.css'); // Output path
 });
 

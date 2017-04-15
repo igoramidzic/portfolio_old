@@ -13,3 +13,7 @@
 @include ('partials.main-abilities')
 
 @include ('partials.main-projects')
+
+@include ('partials.main-stats')
+
+@include ('partials.main-footer')

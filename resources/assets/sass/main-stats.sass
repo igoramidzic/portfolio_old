@@ -1,0 +1,60 @@
+@import "variables/_variables.sass"
+
+.main-page
+  .main-stats
+    background: url('/img/coffee-mac2.jpg') #f5f2ed top center no-repeat fixed
+    background-size: cover
+    margin-bottom: 300px
+    .background-suppressor
+      background-color: fade-out(rgb(22, 93, 122), 0.3)
+      padding-top: 100px
+      padding-bottom: 100px
+      transition: padding .25s
+      .row
+        color: #fff
+        font-size: 30px
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) and (min-width : 992px)
+  .main-page
+    .main-stats
+      .background-suppressor
+        padding-top: 90px
+        padding-bottom: 90px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (min-width : 768px)
+  .main-page
+    .main-stats
+      .background-suppressor
+        padding-top: 80px
+        padding-bottom: 80px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) and (min-width : 480px)
+  .main-page
+    .main-stats
+      .background-suppressor
+        padding-top: 70px
+        padding-bottom: 70px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) and (min-width : 320px)
+  .main-page
+    .main-stats
+      .background-suppressor
+        padding-top: 60px
+        padding-bottom: 60px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .main-page
+    .main-stats
+      .background-suppressor
+        padding-top: 50px
+        padding-bottom: 50px
