@@ -2,5 +2,8 @@
 
 // Home
 Route::get('/', function () {
-    return view('main');
+  return view('main');
 });
+
+// Resume
+URL::to('public/resume.pdf');

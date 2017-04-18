@@ -61,21 +61,22 @@
           opacity: 1
           transform: translate(0%, 0%) scale(1)
 
-    .contact-me-container
+    .resume-container
       padding: 50px 0px 60px 0px
       font-family: 'Slabo 27px', serif
-      .contact-me-helper
-        letter-spacing: 1px
-        text-align: center
-        font-size: 20px
-        margin: 0px
-        .contact-link
-          color: $primary-color
-          text-decoration: none
-          border-bottom: 2px solid $primary-color
-          &:hover
-            color: $primary-accent-color
-            border-bottom: 2px solid $primary-accent-color
+      text-align: center
+      .resume-link
+        text-decoration: none
+        font-size: 21px
+        font-weight: 300
+        border: 2px solid $primary-color
+        color: $primary-color
+        border-radius: 3px
+        padding: 7px 20px
+        transition: all .25s
+        &:hover
+          background-color: $primary-color
+          color: #fff
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) and (min-width : 991px)
@@ -85,7 +86,7 @@
       .header
         font-size: 38px
 
-      .contact-me-container
+      .resume-container
         padding: 25px 0px 35px 0px
 
 /* Medium Devices, Desktops */
@@ -96,7 +97,7 @@
       .header
         font-size: 36px
 
-      .contact-me-container
+      .resume-container
         padding: 20px 0px 30px 0px
 
 /* Small Devices, Tablets */
@@ -109,8 +110,8 @@
       .title-bar
         margin-bottom: 20px
 
-      .contact-me-container
-        padding: 15px 0px 25px 0px
+      .resume-container
+        padding: 30px 0px 40px 0px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) and (min-width : 320px)
@@ -122,10 +123,8 @@
       .title-bar
         margin-bottom: 20px
 
-      .contact-me-container
-        padding: 10px 0px 20px 0px
-        .contact-me-helper
-          font-size: 18px
+      .resume-container
+        padding: 30px 0px 40px 0px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
@@ -137,7 +136,5 @@
       .title-bar
         margin-bottom: 20px
 
-      .contact-me-container
-        padding: 5px 0px 15px 0px
-        .contact-me-helper
-          font-size: 18px
+      .resume-container
+        padding: 30px 0px 40px 0px

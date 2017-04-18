@@ -1,8 +1,5 @@
-<!-- Main page -->
-<div class="main-page">
-  <!-- Main footer -->
-  <div class="main-footer">
-    <div class="content container">
-    </div>
+<!-- Main footer -->
+<section class="main-footer">
+  <div class="content container">
   </div>
-</div>
+</section>

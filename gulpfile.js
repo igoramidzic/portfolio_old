@@ -13,7 +13,7 @@ elixir(function(mix) {
     'main-aboutme.sass',
     'main-abilities.sass',
     'main-projects.sass',
-    'main-stats.sass',
+    'main-contact.sass',
     'main-footer.sass'
   ], 'public/css/all.css'); // Output path
 });
