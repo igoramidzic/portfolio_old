@@ -11,7 +11,7 @@
     <div class="projects">
 
       <div class="row">
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="http://www.kk.igoramidzic.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/kodekademy-project.png" alt="Replica of Codecademy project">
@@ -24,7 +24,7 @@
             </div>
           </a>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="http://www.sn.igoramidzic.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/sipnub-project.png" alt="Replica of Github project">
@@ -37,7 +37,7 @@
             </div>
           </a>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="https://www.freenters.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/freenters.png" alt="Freenters Internship">
@@ -50,7 +50,7 @@
             </div>
           </a>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="http://www.wa.igoramidzic.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
@@ -63,7 +63,7 @@
             </div>
           </a>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="http://www.bi.igoramidzic.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/bota-iusti-project.png" alt="Dribbble Replica Project">
@@ -76,7 +76,7 @@
             </div>
           </a>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="project-link" target="_blank" href="http://www.bi.igoramidzic.com">
             <!-- Project image -->
             <img class="img-responsive" src="img/kodekademy-project.png" alt="Weather App Project">
@@ -91,10 +91,6 @@
         </div>
       </div>
     </div>
-    <!-- Contact me section -->
-    <!-- <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="contact-me-container">
-      <p class="contact-me-helper">Like what you see? <a class="contact-link" href="mailto:amidzicigor@yahoo.com">Shoot me an email</a> and lets chat about working together!</p>
-    </div> -->
 
     <!-- Resume link -->
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="resume-container">

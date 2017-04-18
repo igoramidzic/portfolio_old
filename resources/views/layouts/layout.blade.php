@@ -17,13 +17,11 @@
   </head>
   <body>
 
-    <!-- Overlay for loading spinner with inline styles for instant loading -->
-    <div id="overlay" style="position: fixed; background: #fff; height: 100%; width: 100%; left: 0; top: 0; transition: all .5s; opacity: 1; z-index:99999">
-      <div class="spinner"></div>
-    </div>
+    
 
-    <!-- Yield main content -->
+    <!-- Main page -->
     <div class="main-page">
+      <!-- Yield main content -->
       @yield ('main-content')
     </div>
 
