@@ -1,7 +1,7 @@
 <!-- Main contact -->
 <section class="main-contact">
   <div class="content container">
-    <h1 class="header">
+    <h1 class="header contact-anchor">
       <span data-aos="fade-in" data-aos-duration="1000" data-aos-delay="50">L</span><!--
       --><span data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">e</span><!--
       --><span data-aos="fade-in" data-aos-duration="1000" data-aos-delay="150">t</span><!--
@@ -20,7 +20,7 @@
       --><span data-aos="fade-in" data-aos-duration="1000" data-aos-delay="800">.</span>
     </h1>
     <!-- Contact link -->
-    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="contact-container">
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-anchor=".contact-anchor" class="contact-container">
       <a class="contact-link" target="_blank" href="mailto:amidzicigor@yahoo.com">Email me</a>
     </div>
   </div>
