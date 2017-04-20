@@ -1,53 +1,52 @@
+/* globals $, AOS */
+
 // Spinner Loader
-window.addEventListener('load', function(){
+window.addEventListener('load', function () {
   // Set overlay opacity to 0 (For nice transition)
-  $('#overlay').css("opacity", "0");
+  $('#overlay').css('opacity', '0')
   // Set overlay display to none, so overlay is not on top of other elements
   // After 500ms
   setTimeout(function () {
-    $('#overlay').css("display", "none");
+    $('#overlay').css('display', 'none')
   }, 500)
 })
 
-
-$(document).ready(function(){
-
+$(document).ready(function () {
   // AOS Init
   AOS.init({
     once: true
-  });
+  })
 
-  // $(wind
   // Change navbar css
   function changeNavbar () {
     // Height of the main hero
-    var heroHeight = $('.main-hero').outerHeight();
+    var heroHeight = $('.main-hero').outerHeight()
 
     // First scroll
     if ($(window).scrollTop() > 40) {
-      $('.navbar').addClass('first-scroll-navbar');
+      $('.navbar').addClass('first-scroll-navbar')
     } else if ($(window).scrollTop() < 20) {
-      $('.navbar').removeClass('first-scroll-navbar');
+      $('.navbar').removeClass('first-scroll-navbar')
     }
 
     // Second scroll
     if ($(window).scrollTop() > heroHeight - 125) {
-      $('.navbar').addClass('second-scroll-navbar');
+      $('.navbar').addClass('second-scroll-navbar')
     } else if ($(window).scrollTop() < heroHeight) {
-      $('.navbar').removeClass('second-scroll-navbar');
+      $('.navbar').removeClass('second-scroll-navbar')
     }
   }
 
   // Functions to run on scroll
   $(window).scroll(function () {
-    changeNavbar();
-  });
+    changeNavbar()
+  })
 
   // Functions to run on resize
-  $(window).resize(function(){
-    changeNavbar();
-  });
+  $(window).resize(function () {
+    changeNavbar()
+  })
 
   // On page loag
-  changeNavbar();
-});
+  changeNavbar()
+})
