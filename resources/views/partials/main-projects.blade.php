@@ -16,12 +16,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/kodekademy-project.png" alt="Replica of Codecademy project">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Codecademy Replica</h4>
+              <!-- <h4 class="title">Codecademy Replica</h4> -->
               <!-- Project description -->
-              <p class="description">Some description here</p>
-            </div>
+              <!-- <p class="description">Some description here</p> -->
+            <!-- </div> -->
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -29,12 +29,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/sipnub-project.png" alt="Replica of Github project">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Github Replica</h4>
+              <!-- <h4 class="title">Github Replica</h4> -->
               <!-- Project description -->
-              <p class="description">Some description here</p>
-            </div>
+              <!-- <p class="description">Some description here</p> -->
+            <!-- </div> -->
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -42,12 +42,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/freenters.png" alt="Freenters Internship">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Freenters Internship</h4>
+              <!-- <h4 class="title">Freenters Internship</h4> -->
               <!-- Project description -->
-              <p class="description">Some description here</p>
-            </div>
+              <!-- <p class="description">Some description here</p> -->
+            <!-- </div> -->
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -55,12 +55,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Weather App</h4>
+              <!-- <h4 class="title">Weather App</h4> -->
               <!-- Project description -->
-              <p class="description">Some description here</p>
-            </div>
+              <!-- <p class="description">Some description here</p> -->
+            <!-- </div> -->
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -68,12 +68,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/bota-iusti-project.png" alt="Dribbble Replica Project">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Dribbble Portfolio Replica</h4>
+              <!-- <h4 class="title">Dribbble Portfolio Replica</h4> -->
               <!-- Project description -->
-              <p class="description">Some description here</p>
-            </div>
+              <!-- <p class="description">Some description here</p> -->
+            <!-- </div> -->
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -81,12 +81,12 @@
             <!-- Project image -->
             <img class="img-responsive" src="img/kodekademy-project.png" alt="Weather App Project">
             <!-- Project meta -->
-            <div class="project-meta">
+            <!-- <div class="project-meta"> -->
               <!-- Project title -->
-              <h4 class="title">Placeholder</h4>
+              <!-- <h4 class="title">Placeholder</h4> -->
               <!-- Project description -->
-              <p class="description">until I create more projects</p>
-            </div>
+              <!-- <p class="description">until I create more projects</p> -->
+            <!-- </div> -->
           </a>
         </div>
       </div>
