@@ -31,33 +31,58 @@
         padding: 0px 5px
         margin-bottom: 10px
         overflow: hidden
-        .project-link
-          overflow: hidden
-          margin: 0px
-          &:hover
-            border-color: $primary-color
+        .project
+          position: relative
           img
             border: 1px solid $primary-color
             padding: 5px
             border-radius: 3px
             background-color: #fff
           .project-meta
+            float: left
             position: absolute
             top: 0
             right: 0
             bottom: 0
             left: 0
-            padding: 20px
-            color: #fff
-            background-color: fade-out($primary-color, 0.1)
-            transform: translate(0%, 100%) scale(.5)
-            transition: all 250ms ease-in-out
-            .title
-              margin-top: 0px
-              font-size: 30px
-            .description
-              font-size: 19px
-        .project-link:hover .project-meta
+            background-color: fade-out($footer-color, 0.2)
+            opacity: 0
+            transition: opacity .25s
+            border-radius: 3px
+            .row
+              height: 100%
+              display: flex
+              align-items: center
+              justify-content: center
+            .column
+              text-align: center
+            .col-left
+              margin-left: 20px
+            .col-right
+              margin-right: 20px
+            .project-link
+              text-decoration: none
+              font-size: 21px
+              font-weight: 300
+              border-radius: 3px
+              padding: 8px 25px
+              transition: all .25s
+              -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75)
+              -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75)
+              box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75)
+            .github-link
+              background-color: #24292e
+              border: 2px solid #24292e
+              color: #fff
+              margin-left: 5px
+            .visit-link
+              background-color: $primary-accent-color
+              border: 2px solid $primary-accent-color
+              color: #fff
+              margin-right: 5px
+            .disabled-link
+              cursor: not-allowed
+        .project:hover .project-meta
           opacity: 1
           transform: translate(0%, 0%) scale(1)
 

@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
   // Set overlay display to none, so overlay is not on top of other elements
   // After 500ms
   setTimeout(function () {
-    $('#overlay').css('display', 'none')
+    $('#overlay').remove()
   }, 500)
 })
 
