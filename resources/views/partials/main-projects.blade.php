@@ -79,29 +79,6 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div class="project">
-            <!-- Project meta -->
-            <div class="project-meta hidden-xs">
-              <div class="row">
-                <div class="column col-left col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/new-weather-app">Github</a>
-                </div>
-                <div class="column col-right col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link visit-link" target="_blank" href="http://www.wa.igoramidzic.com">Visit</a>
-                </div>
-              </div>
-            </div>
-            <!-- Project image -->
-            <img class="img-responsive hidden-xs" src="img/weather-project.png" alt="Weather-App Project">
-
-            <!-- Mobile view project -->
-            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.wa.igoramidzic.com">
-              <!-- Project image -->
-              <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
-            </a>
-          </div>
-        </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
@@ -125,26 +102,49 @@
             </a>
           </div>
         </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="project">
+            <!-- Project meta -->
+            <div class="project-meta hidden-xs">
+              <div class="row">
+                <div class="column col-left col-lg-6 col-md-6 col-sm-6">
+                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/new-weather-app">Github</a>
+                </div>
+                <div class="column col-right col-lg-6 col-md-6 col-sm-6">
+                  <a class="project-link visit-link" target="_blank" href="http://www.wa.igoramidzic.com">Visit</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project image -->
+            <img class="img-responsive hidden-xs" src="img/weather-project.png" alt="Weather-App Project">
+
+            <!-- Mobile view project -->
+            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.wa.igoramidzic.com">
+              <!-- Project image -->
+              <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
+            </a>
+          </div>
+        </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
               <div class="row">
                 <div class="column col-left col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/kodekademy">Github</a>
+                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/portfolio">Github</a>
                 </div>
                 <div class="column col-right col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link visit-link" target="_blank" href="http://www.kk.igoramidzic.com">Visit</a>
+                  <a class="project-link visit-link" target="_blank" href="http://www.igoramidzic.com">Visit</a>
                 </div>
               </div>
             </div>
             <!-- Project image -->
-            <img class="img-responsive hidden-xs" src="img/kodekademy-project.png" alt="Kodekademy Project">
+            <img class="img-responsive hidden-xs" src="img/portfolio-project.png" alt="Kodekademy Project">
 
             <!-- Mobile view project -->
-            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.kk.igoramidzic.com">
+            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.igoramidzic.com">
               <!-- Project image -->
-              <img class="img-responsive" src="img/kodekademy-project.png" alt="Kodekademy Project">
+              <img class="img-responsive" src="img/portfolio-project.png" alt="Kodekademy Project">
             </a>
           </div>
         </div>
