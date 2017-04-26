@@ -4,13 +4,13 @@
     <!-- Title -->
     <h1 data-aos="fade-up" data-aos-duration="1000" class="header">Projects</h1>
     <!-- Title underline -->
-    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="title-bar">
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="title-bar projects-anchor">
       <div class="bar-accent"></div>
     </div>
     <!-- Projects -->
     <div class="projects">
       <div class="row">
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -33,7 +33,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -56,7 +56,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -79,7 +79,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -102,7 +102,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -125,7 +125,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
