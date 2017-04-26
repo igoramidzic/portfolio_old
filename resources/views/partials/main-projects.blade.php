@@ -79,7 +79,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -102,7 +102,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
