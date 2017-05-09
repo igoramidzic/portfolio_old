@@ -152,9 +152,9 @@
     </div>
 
     <!-- Resume link -->
-    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="links-container">
+    <!-- <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="links-container">
       <a class="main-link resume-link" target="_blank" href="/resume.pdf">My resume</a>
       <a class="main-link github-link" target="_blank" href="http://github.com/igoramidzic"><i class="fa fa-github"></i> Github</a>
-    </div>
+    </div> -->
   </div>
 </section>

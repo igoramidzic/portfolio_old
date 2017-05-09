@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+.main-page .main-hero {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #34b3a0;
+  background: -webkit-linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  background: -o-linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  background: -moz-linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  background: linear-gradient(49deg, #34b3a0 53%, #25bba5 50%, #34b3a0 100%);
+  transition: padding 0.25s; }
+  .main-page .main-hero .header {
+    margin: 0px;
+    text-align: center;
+    color: #ecc969;
+    text-shadow: 0px 0px 19px #3d7a68;
+    letter-spacing: 7px;
+    font-size: 43px;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-bottom: 50px; }
+  .main-page .main-hero .hero-img {
+    margin: 0 auto;
+    max-height: 350px; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .main-page .main-hero {
+    padding-top: 140px;
+    padding-bottom: 90px; }
+    .main-page .main-hero .header {
+      letter-spacing: 6px;
+      font-size: 40px;
+      margin-bottom: 30px; }
+    .main-page .main-hero .hero-img {
+      max-height: 330px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .main-page .main-hero {
+    padding-top: 130px;
+    padding-bottom: 80px; }
+    .main-page .main-hero .header {
+      letter-spacing: 6px;
+      font-size: 37px;
+      margin-bottom: 30px; }
+    .main-page .main-hero .hero-img {
+      margin: 0 auto;
+      max-height: 310px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .main-page .main-hero {
+    padding-top: 120px;
+    padding-bottom: 70px; }
+    .main-page .main-hero .header {
+      letter-spacing: 5px;
+      font-size: 35px;
+      margin-bottom: 30px; }
+    .main-page .main-hero .hero-img {
+      max-height: 290px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .main-page .main-hero {
+    padding-top: 110px;
+    padding-bottom: 60px; }
+    .main-page .main-hero .header {
+      letter-spacing: 3px;
+      font-size: 31px;
+      margin-bottom: 30px; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .main-page .main-hero {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+    .main-page .main-hero .header {
+      letter-spacing: 2px;
+      font-size: 28px;
+      margin-bottom: 20px; } }
+
+/*# sourceMappingURL=main-hero.css.map */
