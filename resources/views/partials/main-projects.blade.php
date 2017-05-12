@@ -108,15 +108,15 @@
             <div class="project-meta hidden-xs">
               <div class="row">
                 <div class="column col-left col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/new-weather-app">Github</a>
+                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/trello-replica">Github</a>
                 </div>
                 <div class="column col-right col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link visit-link" target="_blank" href="http://www.wa.igoramidzic.com">Visit</a>
+                  <a class="project-link visit-link" target="_blank" href="http://www.tr.igoramidzic.com">Visit</a>
                 </div>
               </div>
             </div>
             <!-- Project image -->
-            <img class="img-responsive hidden-xs" src="img/weather-project.png" alt="Weather-App Project">
+            <img class="img-responsive hidden-xs" src="img/trello-project.png" alt="Weather-App Project">
 
             <!-- Mobile view project -->
             <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.wa.igoramidzic.com">
