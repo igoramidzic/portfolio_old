@@ -10,6 +10,29 @@
     <!-- Projects -->
     <div class="projects">
       <div class="row">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="project">
+            <!-- Project meta -->
+            <div class="project-meta hidden-xs">
+              <div class="row">
+                <div class="column col-left col-lg-6 col-md-6 col-sm-6">
+                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/trello-replica">Github</a>
+                </div>
+                <div class="column col-right col-lg-6 col-md-6 col-sm-6">
+                  <a class="project-link visit-link" target="_blank" href="http://www.tr.igoramidzic.com">Visit</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project image -->
+            <img class="img-responsive hidden-xs" src="img/trello-project.png" alt="Weather-App Project">
+
+            <!-- Mobile view project -->
+            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.wa.igoramidzic.com">
+              <!-- Project image -->
+              <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
+            </a>
+          </div>
+        </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
@@ -79,7 +102,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
@@ -102,30 +125,7 @@
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div class="project">
-            <!-- Project meta -->
-            <div class="project-meta hidden-xs">
-              <div class="row">
-                <div class="column col-left col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link github-link" target="_blank" href="https://github.com/igoramidzic/trello-replica">Github</a>
-                </div>
-                <div class="column col-right col-lg-6 col-md-6 col-sm-6">
-                  <a class="project-link visit-link" target="_blank" href="http://www.tr.igoramidzic.com">Visit</a>
-                </div>
-              </div>
-            </div>
-            <!-- Project image -->
-            <img class="img-responsive hidden-xs" src="img/trello-project.png" alt="Weather-App Project">
-
-            <!-- Mobile view project -->
-            <a class="project-link hidden-lg hidden-md hidden-sm" target="_blank" href="http://www.wa.igoramidzic.com">
-              <!-- Project image -->
-              <img class="img-responsive" src="img/weather-project.png" alt="Weather App Project">
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-anchor=".projects-anchor" class="project-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="project">
             <!-- Project meta -->
             <div class="project-meta hidden-xs">
